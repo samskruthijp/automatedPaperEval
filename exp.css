@@ -1,0 +1,49 @@
+
+body, html{
+  height:100%;
+  display:grid;
+  background-color:#353b48;
+}
+.hor-center{
+margin:auto;
+}
+
+.pan{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  background-color:#cf6a87;
+  height:60%;
+}
+.btn-bs-file{
+    position:relative;
+}
+.btn-bs-file input[type="file"]{
+    position: absolute;
+    top: -9999999;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    width:0;
+    height:0;
+    outline: none;
+    cursor: inherit;
+}
+.vertical {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-left:auto;
+}
+.mar{
+margin:10px;
+padding:10px;
+}
+.btn{
+  text-align:center;
+  border-radius: 100px;
+  padding: 20px 60px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.45em;
+  background: #D2D2D2;
+}
