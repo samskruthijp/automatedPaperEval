@@ -1,0 +1,541 @@
+Nos.
+ASSIGNMENT - OL
+I.
+What is IOT ? Mention it's scope and motivating factors,
+IOT
+جد
+allow
+a technology transition in which devices will
+us to sense and control the physical world
+by making objects smarter and connecting them
+through
+an intelligent network.
+The basic goal of lot is
+lot is connecto the unconnected ".
+Objects that are not currently joined to the computa
+network should be connected so that they
+communicate and interact with people and other objects.
+san
+When object and machines can be sensed and controlled
+remotely
+a network, a lighter integration
+between the physical world and computis is enabled.
+across
+2
+Breifly discuss the impact of lot on connected roadways
+factories
+and smart connected buildings
+connected
+CONNECTED ROADWAYS;
+1oT is
+necessary component for implementing a
+fully connected transport auton infrastructure.
+connected roadways is
+a tum
+associated with both the
+drurer and drwirless
+cars fully integrating with the
+surrounding transportation infrastucture
+Banc sensors reside in the cars already.
+already. The need for
+all sensory information of control is the druri to
+understand and handle and make critical decisions
+for the
+5
+Scanned with CamScanner
+Nos.
+replicating
+Moja challenges faced being addressed by connected wadway
+increasing plant production, quality and uptime & decrease
+while concentraling on driving safely. The lot is
+this concept on a larger scale.
+safety, mobility and environment · which maluch
+haffic jums and
+urban congulos
+CONNECTED FACTORIES:
+The main challenges facing manufacturing
+nanufacturing in a factory
+accelocating a heus product to meet market
+securing factures from cyber threat.
+improving worker productivity and safety.
+enewoment
+are:
+requeements,
+.
+©
+with
+Industrial
+entuprises around the world are retooling thui
+factories
+advanced technologies and architectures to
+Aѕоur hua Мост
+problems and boost manufacturing flexibility
+and speed.
+>
+networks
+occur and is
+refused to as the
+connecteel
+A
+convergence of factoring and based OT and architectuus
+with global IT
+is starting to
+factories
+In addition to sensous, the devices on the plant floor
+becoming smartur
+in their ability to transmit and receive
+large quantities of real lurie
+informational
+data
+oure
+and diagonstu?
+6
+Scanned with CamScanner
+Q.
+Nos.
+MODULE -3:
+Descube application prolocols for lot.
+) COAP
+Constrained Application Peotocol (CO AP ) makes y fote
+w dudlap и далим с датури — Ageuxe
+is oriented applications targeting
+constrained nocles of
+networks
+The COAP
+messaging model
+El is pumarly deigned to facilitate the exchange of
+messages over
+between endpornts, including the to
+secure transport protocol Datagram
+Transport cayce Security
+(TOLS)
+TKL code
+Message ID
+Token ( Optional, length associaled by TKL)
+Options
+111111111
+Payload (option au
+UDP
+ver
+T
+CORP message
+Format
+b
+COAP can run over lead IPv4 or IPv6. It is recommended
+that the message fit within a single Ip parket & UDP
+payload to ouvid fragmentention,
+.
+It defines 4 types of message confirmable, non-conformable,
+Acknowledgement & reset.
+в
+a
+J
+while
+running
+over UDPCOAP
+reliable transmission
+messages when a COAP header is marked
+confuimable":
+duru
+by
+It supports data requests sent to a
+ewaraging the
+group of
+use of IP multicast
+15
+Scanned with CamScanner
+Q.
+Nos.
+controined nodes. When TLS is
+(MQTT Am Message Queing Telemeley Transport (MQTT) clerit
+can act as a publisher to send data to an Mort
+sowy acting an MQTT message broker.
+With MQTT clients can subscribe to call late or specific data
+from the information free of a a publisher.
+MQTT control
+packles run over TCP wing port 1883
+Message Type DUP I aos Ruais
+Remaining length
+Variable Header Coptional)
+Payload coptional)
+MQTT message famat.
+MQTT session between each client and serve consit
+of 4 phases:
+session establishment, authentication, data exchange of
+session termination,
+Securing MQTT with ILS is considered optional because it
+calls
+resources on
+not used the client sends a clear tent usuname -passwd
+during connection
+initiation
+for more
+.
+MOTT
+with
+MQTT offers 3 levels of quality of sewice (qos). QoS for
+is implemented when exchanging application messages
+publishers of subscutres f us deftuent from IP gos ,
+The delviry proloul is symmelic which means that the
+role of the sindur
+р соліс .
+clunt
+sewu can each take the
+म
+16
+Scanned with CamScanner
+Q.
+Nos.
+2.
+Оля СУ
+varoris methods used in lot application Transport.
+Application layer protocol not present !
+The
+dala payload is directly transmitted on
+top of the loure layers. No application layer
+protocol in used.
+03 | Superwisory content of data Acquisition ( SCADA) :
+one of the most common industrial prolouds
+used in the world but was developed dong
+SCADA is
+before IP.
+ſu) Generic web based protocols :
+Genuic protocols like Ethernet, Wi-Fi and 4G LTE an
+found on many consumer- enterprise - class lot
+devices that communicate over non-constrained now.
+eu)
+10T
+application laye prowols:
+They are duined to run on constrained nodes with
+a small compute footprint and are well adapted
+new bandwidth constraints on cellular ir
+satelite links congtiained GLOUPAN
+MQTT & Co AP
+nlw,
+17
+Scanned with CamScanner
+Q.
+Nos.
+a room.
+scale of
+SMART CONNECTED BUILDINGS:
+Surseus care ofeen used to control the healing, ventilation
+arul au conditioning (HVAC) system. Temperature sensors
+are spread throughout the building and are und to
+luence the building management system's contiol
+au flow into
+Smart buildings make it easier and cheaper to manage
+compared to the
+massue costs involved in oprating
+complen structus
+The building automation system (BAS) has been developed
+to provide a single management system for the HVAC
+lighting fire alarm
+and direction systems as will as
+3 ust and explain diffuent challenges faces by lot.
+☺ SCALE:
+of
+can be serial
+magnitude larger.
+access control
+While
+the scale
+ОТ
+orders of
+ü) SEWRITY :
+with more things becoming connected with
+other things and people, security is an
+increasingly complex isire
+for
+lot. Threat
+surface is
+is now greatly expanded
+PRIVACY
+As
+sensors
+become more profifre
+in our everyday
+lurs
+much
+of the data they
+they gather will be
+specific to individuals of their actuities
+7
+Scanned with CamScanner
+Q.
+Nos.
+going
+(iv) BIG DATA F
+ANAVY1108
+lo
+lata
+aririno
+be handled. The
+evaluating massive
+from different source
+other nascent technology, various
+As with any
+jockeying
+for market
+within
+Compare and Constrast
+Devius & users authenticated
+LOT nlw disruption duictly Can be business impacting,
+IoT and its large number of sensors is
+o trigger
+deluge of data that needs
+challenge, in
+massive amounts
+INTEROPERABILITY :
+protocols and archilectives are
+market share
+and standardisation
+LOT.
+11
+and OT.
+4.
+CRITERION INDUSTRIAL OT NETWORK
+ENTERPRISE OT NETWORK
+Opuational Keep the business operating Manage the computis data
+focus
+24 *7
+f employee communication
+in
+a seculle way
+Priorities 1.Availwiity 2. Integrity 1. Security 2. Integrity
+3. Availability
+Types of Data Monitoring control of
+Uoice, video transactional
+supervisory data .
+and bulk data
+Security controlled physical acces
+to devices
+to the network.
+Implication of
+failure
+impacts business
+depending on
+3. Security
+indestry
+Scanned with CamScanner
+Nos
+Nos.
+Eipfam in velall furtumat stack of cou lof.
+>
+the
+Things laya i Mlie physical device need to fil
+constants of the environment in which
+they are deplayed while still being able to provide the
+information needed
+>
+Comumunications nelcovk_layu : When smart objects are not
+self-contained, they nud to
+communicare with ertunal eystem
+A.ccus necework_sablaya i The last mile of the lot nlw is true
+accus nln. The unsou connected to
+Accen olio may also be umied:
+Gjatiways and backhaul network subraya:
+A common communication system organusu mutiple
+smart_eljecte in a quien aua
+around a
+gattuny.
+commen
+>
+Metrvolk transport sublayu; for communication to be succesful,
+new and transport layer protocote
+such as IP and UDP
+htt {: տրտսմ to Aert tu
+varuity of dwicy to connect
+and media to us
+lot nlw management sublayu : Adalilional protocols must be in
+allow the headed
+application to exchange data with (ผsts
+place to
+Application and analytics layer : At the upper laya, an
+application needs to proces
+not
+only to control the small objedi when necesary but to
+decision intelligently
+make
+9
+Scanned with CamScanner
+Nos.
+6
+)
+gurs major allention to
+Discuss in detail diffient loT architectuur
+(0) The one M2M lor standardised Mchilictum :-
+a) Applications laya i
+connecwity beltan durces and then
+applications,
+b)
+-
+Suwiu layar : At this laya, horizontal modules include the
+physical nlw that the lot applications sun on
+the underlying management protocols and the hardware.
+e) Melwork layer
+This is the communication domain
+for the lot
+devices and end points .
+It includes the duriu
+themselius and the communications network
+that links them,
+The .10T World Forum ClotWF) Standardind Architetture -
+a) Physical devices and Controllers Layer:
+The first layer of the lot Reference Model is the
+physical devices
+and controllers layu. This layer is
+home to things in the lot, including the
+Various endpoint Luricus
+endpoint dwices and sensou that send &
+receni in formation
+the
+Connectivity layer:
+The
+great most
+data,
+important function of this lot laya is
+the reliable and timely transmission
+of
+Functions include; communication blw laya & devius,
+reliable delurry, switching & routing.. etc.
+10
+Scanned with CamScanner
+Q.
+Nos.
+c) Edge computing layer :
+on dato seducten and sprouting
+data flower inde informalin shut us vocey for using
+and processing by higher layers
+4) | Dala occumulation Хал. :
+(арбили са arx). „Ахли w it is yags_4.
+necessary.
+applications when
+e) Data abstraction layer:
+Reconciles multiple data formats and ensures consistent
+from various sources
+sumantics
+6) Application layer:
+Interprets data using software applications, Applications
+may monitor, control and provide reports band on
+analysis of the data,
+the
+g) collaboration and Processes layer:
+Consumes
+and shares
+the application information.
+Collaborating on and communicating istamation
+often requires multiple steps, and it is what makes
+lot
+lot useful
+A sumplified lot Architecture :-
+Core Core Stack
+Data management of compute Stack
+Applicalions
+aloud I
+Communications
+nw
+Security
+T Fog
+Things
+Edge
+11
+Scanned with CamScanner
+1oT nlw involves strong BDA component.
+Dala
+management
+aligned
+with
+each of 3 layers
+IOT
+Functional slack.
+The cose lot Functional stack can be expanded into sublayers
+containing greater detail & specific n/w functions
+Appn layer has both analylics of industry specific tot contul
+system components.
+Q.
+Nos.
+layers of the
+Core
+Scanned with CamScanner
+Nos.
+MODULE -2
+1
+Breifly emplain protocol stack Milisation IEEE
+802.15.4
+(i) ZigBee
+Promoted through
+Zigbee Alliance, il defineds the
+upper layer components as well as app.
+66
+psti.
+include automation
+home automation and health care.
+common profiles
+( 6 Low PAN
+It is an IPv6 adaption layer defined by the
+IETE
+that describre
+group
+how to transport IPU
+packets our IEEE 802-18.4
+Glo WPAN werking
+(ii)| Zigbee IP ::
+It adopts the GlowPAN adaptation layu, IpU6
+network layu. RPL lowering protocol.
+(ISA) as
+IvD ISA 100. Ila : Developed by Induinational Soceity of Auto matuon
+wieles Systems for Industrial
+Automation :, Prouss Control & Related Applications.
+Nlw and Transport layer are based on 6LOWPAN,
+Ipv6 & UDP standards
+CD
+Wieless HART
+A protocol stack that offus a linie synchronised
+suf organising and self-healing mesh
+architecture luciaging IEEE 802.15.4-2006
+over 2.4 GHz frequency band.
+(Ji
+)
+Thread :
+Constructed
+on top of 6LOWPAN LIPNG thread is
+a protocol stack
+for a secure f reliable mish nlw
+to connect & control products at home.
+13
+Scanned with CamScanner
+Q.
+Nos.
+is a niw it berusu
+2.
+What is
+that a wvieless
+bauad solution t»»
+Sol! A sensualor lacuater network (SANET) is a
+that sense and measure their environment and loc
+that out
+on their environment.
+SANE T? Explain some odsondages 4 dui Odeontogan
+تیارکرلیم
+The sensors and lor actuales in SANET are capable of commun.
+-icating or co-ordinating in a productwe
+manner.
+ADVANTAGES
+.
+Greater development flexibility.
+simpler scaling to a larger number of nodes
+lower implementation costs
+Easil long tum
+Effortless introduction of new I sensors
+Better equiped to handle dynamic I rapid ropology changes.
+maintenance.
+nodes
+o
+DUSADVANTAGES.
+Potentially less secure
+Typicalq Lo30. hаnупиміт ориз,
+Greater lure of impact I in
+influence by
+by enrionnent
+Scanned with CamScanner

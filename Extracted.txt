@@ -1,0 +1,140 @@
+Nos.
+ASSIGNMENT - OL
+I.
+What is IOT ? Mention it's scope and motivating factors,
+IOT
+allow
+a technology transition in which devices will
+us to sense and control the physical world
+by making objects smarter and connecting them
+through
+an intelligent network.
+The basic goal of lot is
+lot is connecto the unconnected ".
+Objects that are not currently joined to the computa
+network should be connected so that they
+communicate and interact with people and other objects.
+san
+When object and machines can be sensed and controlled
+remotely
+a network, a lighter integration
+between the physical world and computis is enabled.
+across
+2
+Breifly discuss the impact of lot on connected roadways
+factories
+and smart connected buildings
+connected
+CONNECTED ROADWAYS;
+1oT is
+necessary component for implementing a
+fully connected transport auton infrastructure.
+connected roadways is
+a tum
+associated with both the
+drurer and drwirless
+cars fully integrating with the
+surrounding transportation infrastucture
+Banc sensors reside in the cars already.
+already. The need for
+all sensory information of control is the druri to
+understand and handle and make critical decisions
+for the
+5
+Scanned with CamScanner
+Nos.
+replicating
+Moja challenges faced being addressed by connected wadway
+increasing plant production, quality and uptime & decrease
+while concentraling on driving safely. The lot is
+this concept on a larger scale.
+safety, mobility and environment · which maluch
+haffic jums and
+urban congulos
+CONNECTED FACTORIES:
+The main challenges facing manufacturing
+nanufacturing in a factory
+accelocating a heus product to meet market
+securing factures from cyber threat.
+improving worker productivity and safety.
+enewoment
+are:
+requeements,
+.
+©
+with
+Industrial
+entuprises around the world are retooling thui
+factories
+advanced technologies and architectures to
+Aѕоur hua Мост
+problems and boost manufacturing flexibility
+and speed.
+>
+networks
+occur and is
+refused to as the
+connecteel
+A
+convergence of factoring and based OT and architectuus
+with global IT
+is starting to
+factories
+In addition to sensous, the devices on the plant floor
+becoming smartur
+in their ability to transmit and receive
+large quantities of real lurie
+informational
+data
+oure
+and diagonstu?
+6
+Scanned with CamScanner
+Nos.
+replicating
+Moja challenges faced being addressed by connected wadway
+increasing plant production, quality and uptime & decrease
+while concentraling on driving safely. The lot is
+this concept on a larger scale.
+safety, mobility and environment · which maluch
+haffic jums and
+urban congulos
+CONNECTED FACTORIES:
+The main challenges facing manufacturing
+nanufacturing in a factory
+accelocating a heus product to meet market
+securing factures from cyber threat.
+improving worker productivity and safety.
+enewoment
+are:
+requeements,
+.
+©
+with
+Industrial
+entuprises around the world are retooling thui
+factories
+advanced technologies and architectures to
+Aѕоur hua Мост
+problems and boost manufacturing flexibility
+and speed.
+>
+networks
+occur and is
+refused to as the
+connecteel
+A
+convergence of factoring and based OT and architectuus
+with global IT
+is starting to
+factories
+In addition to sensous, the devices on the plant floor
+becoming smartur
+in their ability to transmit and receive
+large quantities of real lurie
+informational
+data
+oure
+and diagonstu?
+6
+Scanned with CamScanner
