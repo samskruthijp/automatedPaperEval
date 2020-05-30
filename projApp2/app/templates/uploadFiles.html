@@ -1,0 +1,117 @@
+{% extends "index.html" %}
+
+{% block title %}Upload{% endblock %}
+
+{% block main %}
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+        <!-- "{{url_for('results')}} -->
+      <h1 class="text-center font-weight-bold">Automated Paper Evaluation System</h1><br />
+      <h3 class="m-3">Upload the documents</h3>
+      <form action="{{url_for('results')}}" method="POST" enctype="multipart/form-data">
+
+        <div class="form-group">
+          <div class="m-3 custom-file">
+            <input type="file" class="custom-file-input a" name="schema" id="schema">
+            <label class="custom-file-label" for="schema">Select schema...</label>
+          </div>
+          <div class="m-3 custom-file">
+            <input type="file" class="custom-file-input b" name="answer" id="answer">
+            <label class="custom-file-label" for="answer">Select answer script ...</label>
+          </div>
+          
+        </div>
+        <div class="m-3 radio-inline">
+            <label class="radio-inline"><input type="radio" value="images" name="input-select" checked>Image Input</label>
+            <label class="radio-inline"><input type="radio" value="pdfs" name="input-select">PDF Input</label>
+        </div> 
+        <div class="dropdown" id="subject-select">
+          <!-- <button class="m-3 btn btn-primary dropdown-toggle " type="button" id="subject-select" name="subject_select" data-toggle="dropdown"> -->
+          <!-- <span class="m-3 btn btn-primary dropdown-toggle " id="sel">Subjects</span></button> -->
+          <select id="mySelect" class="m-3 dropdown-toggle browser-default custom-select" name = "subject-select">
+            <option value="English">English</option>
+            <option value="Social">Social</option>
+            <option value="Science">Science</option>
+          </select> 
+          </div>
+        <button type="submit" class="m-4 btn btn-primary upl">Upload</button>
+      </form>
+      <!-- <a href=# id=test><button class='btn btn-default'>Test</button></a> -->
+      <div class="row"  style="padding-bottom: 100px;">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body" >
+                <h4 class="card-title">Instructions For Teachers</h5>
+                <p class="card-text">To create the schema:
+                    <p>1. After every question number add the delimiter '----'. (4 hyphens) </p>
+                    <p>2. After every question add a tab space</p>                    
+                    <p>3. After every answer add '-----'. (5 hyphens)</p>
+                    <p>4. After every answer followed by '-----' enter the marks allocated to the question and end it with the final delimiter  ',,... '. (2 commas and 3 periods) </p>
+                    <p>5. Unnecessary spaces should be avoided. </p>
+                    <p>6. Schema is the 1st file to be uploaded.</p>     
+                  </p>               
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6" >
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Instructions For Students</h5>
+                <p class="card-text">
+                  <p>1. 3 formats of an answer sheet are accepted<br>->Handwritten answer sheet must be scanned and uploaded as a PDF file.<br>->Typed answer sheet should be converted to a PDF file or a set of images of JPEG, JPG or PNG formats and uploaded.</p>
+                  <p>2. After every question enter the words 
+                      'Question Number'.</p>
+                  <p>3. Start the answer in the same line . </p>
+                  <p>4. After every answer enter 'end of solution'. </p>
+                  <p>5. Leave the rest of the line blank after 'end of solution' and leave the next line blank as well, then answer the next question. </p>
+                  <p>6. The words in the delimiters cannot be on separate lines and the delimiters are case sensitive. </p>
+                  <p>7. In the case of a mistake in a handwritten answer sheet the wrong word must be covered with whitener and the correct word must be written over it</p>
+                  <p>8. Questions can be answered in any order and they may be skipped.</p>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+{% block script %}
+<!-- <script>
+  $('#schema').on('change',function(){
+      //get the file name
+      var fileName = $(this).val();
+      //replace the "Choose a file" label
+      $(this).next('#schema').html(fileName);
+  })
+</script> -->
+<script>
+        $(function() {
+          $('a#test').bind('click', function() {
+            $.getJSON('/',
+                function(data) {
+              //do nothing
+            });
+            return false;
+          });
+        });
+document.querySelector('.a').addEventListener('change',function(e){
+  var fileName = document.getElementById("schema").files[0].name;
+  var nextSibling = e.target.nextElementSibling
+  nextSibling.innerText = fileName
+})
+document.querySelector('.b').addEventListener('change',function(e){
+  var fileName = document.getElementById("answer").files[0].name;
+  var nextSibling = e.target.nextElementSibling
+  nextSibling.innerText = fileName
+})
+
+$('.dropdown-menu a').click(function(){
+    $('#sel').text($(this).text());
+  });
+
+</script>
+{% endblock %}

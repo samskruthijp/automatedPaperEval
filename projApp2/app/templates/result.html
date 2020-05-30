@@ -1,0 +1,17 @@
+{% extends "/index.html" %}
+{% block title %}Result Analysis{% endblock %}
+{% block main %}
+<h1 class="m-5 display-2 text-left">-Result Analysis-</h1>
+<div class="m-5 " style="margin: 100px; padding-left: 100px; padding-right: 100px;">
+    {% for val in foobar[:-1] %}
+    {% for a in val %}
+      <p class="m-3 text-left">{{a}}</p>
+    {% endfor %}<br></br>
+  {% endfor %}
+  {% for val in foobar[-1] %}
+  <h5><strong>{{val}}</strong></h5>
+  {% endfor %}
+  
+</div>
+
+{% endblock %} 
