@@ -88,15 +88,15 @@ def detect_document(gcs_source_uri, gcs_destination_uri, filename):
 #upload_file('paperevaluation', 'C:/Users/Shivani T Eswara/finyear/visionapi/uploaded files/english.pdf', 'english_solution_gcp.pdf')
 #detect_document('gs://paperevaluation/english_solution_gcp.pdf', 'gs://paperevaluation/english_result ')
 
-def receive_file(subject, inutType, answer_file, schema_file):
-    fname='/Users/Shivani T Eswara/finyear/visionapi/projApp2/app/static/answers/'+answer_file
-    schema_path='/Users/Shivani T Eswara/finyear/visionapi/projApp2/app/static/schema/'+schema_file
-    # filename = (os.path.splitext(os.path.basename(answer_path))[0])
-    destination_blob_name = answer_file+'_solution_gcp.pdf'
-    upload_file('paperevaluation',fname,destination_blob_name)
-    gcs_source_uri = 'gs://paperevaluation/'+destination_blob_name
-    gcs_destination_uri = 'gs://paperevaluation/'+answer_file+'_result '
-    detect_document(gcs_source_uri, gcs_destination_uri, answer_file)
+def receive_file(subject, answer_file, schema_file):
+    # fname='/Users/Shivani T Eswara/finyear/visionapi/projApp2/app/static/answers/'+answer_file
+    # schema_path='/Users/Shivani T Eswara/finyear/visionapi/projApp2/app/static/schema/'+schema_file
+    # # filename = (os.path.splitext(os.path.basename(answer_path))[0])
+    # destination_blob_name = answer_file+'_solution_gcp.pdf'
+    # upload_file('paperevaluation',fname,destination_blob_name)
+    # gcs_source_uri = 'gs://paperevaluation/'+destination_blob_name
+    # gcs_destination_uri = 'gs://paperevaluation/'+answer_file+'_result '
+    # detect_document(gcs_source_uri, gcs_destination_uri, answer_file)
     #if inutType="pdfs":
     if subject=="English":
         fname='/Users/Shivani T Eswara/finyear/visionapi/projApp2/app/static/answers/english1solution.txt'

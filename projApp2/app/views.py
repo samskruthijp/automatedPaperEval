@@ -29,7 +29,7 @@ def results():
             answer = request.files["answer"]
             schema = request.files["schema"]
             subject = request.form["subject-select"]
-            inputType = request.form["input-select"]
+            #inputType = request.form["input-select"]
             print("yayyyyy!!",subject,inputType)
             if answer.filename == "" or schema.filename == "":
                 print("No filename")
@@ -53,7 +53,7 @@ def results():
             
 
     print("subject------------",subject)
-    result = remove_sp_character.receive_file(subject,inputType,answer_file,schema_file)
+    result = remove_sp_character.receive_file(subject,answer_file,schema_file)
     # resp = ourFileName.ourFunctionName(True)
     # return redirect(url_for('result',subject=subject))
     #time.sleep(15) #for letting vision API process
